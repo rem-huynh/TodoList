@@ -76,6 +76,7 @@ public class Main {
         // loop will exit if valid input is given, create new task      
     }
 
+    // helper method to view current tasks
     static void viewTasks(ArrayList<Task> tasks) {
         if (tasks.isEmpty()) {
             System.out.println("No Tasks Available.");

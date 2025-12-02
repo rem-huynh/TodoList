@@ -53,9 +53,5 @@ public class Task {
         return (isCompleted ? "[x] " : "[ ] ") + description;
         
     }
-    
-
-
-
 }
 
